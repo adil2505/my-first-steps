@@ -1,0 +1,15 @@
+score = input("Enter Score: ")
+score = float(score)
+if score > 1:
+    message = 'error'
+elif score >= 0.9:
+    message = 'A'
+elif score >= 0.8:
+    message = 'B'
+elif score >= 0.7:
+    message = 'C'
+elif score >= 0.6:
+    message = 'D'
+elif score < 0.6:
+    message = 'F'
+print(message)
